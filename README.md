@@ -1,4 +1,6 @@
 ## Consumindo APIs Paginadas de Forma Distribuída com Python e Spark
+#### Obs. No final do código tem o exemplo do código rodando... não trouxe todo o log para evitar ficar grande, mas ela vai salvando os dados em uma landing zone no storage, recomendo já ir lendo o dado em paralelo conforme neste link: https://www.linkedin.com/posts/wellikiandre_ambientereal-dataengineer-activity-7236798969064919040-Srmx?utm_source=share&utm_medium=member_desktop
+
 
 😉 Consumindo APIs Paginadas de Forma Distribuída com Python e Spark
 Quando trabalhamos com a coleta de grandes volumes de dados de APIs, o consumo eficiente e o controle das requisições tornam-se cruciais. Um cenário comum é a necessidade de realizar requisições paginadas para coletar todos os dados históricos disponíveis. Para alcançar essa proeza de forma mais rápida, a estratégia é clara: distribuir para conquistar.

@@ -22,7 +22,11 @@ Execução Distribuída das Requisições: Com concurrent.futures.ThreadPoolExec
 
 Controle de Páginas e Erros: O código mantém um controle detalhado de cada página consumida, registrando o sucesso ou falha de cada requisição. Em caso de falha, ele armazena a página específica e os detalhes do erro, facilitando a análise posterior.
 
-Tratamento de Erros: Em vez de um tratamento imediato para os erros, o código permite primeiro entender o motivo da falha. A sugestão no final do script é que você faça uma análise cuidadosa dos dados de controle antes de tomar qualquer ação corretiva.
+Tratamento de Erros: Em vez de aplicar um tratamento imediato para os erros, eu prefiro entender primeiro entender o motivo da falha. O 🎲df_controle lhe dará todos os dados necessários, antes de qualquer ação corretiva.
+
+Exemplo do Dataframe de Controle, que é salvo junto com o Dataframe dos dados em pastas separadas, pode consumir utilizando strutered streaming.
+![image](https://github.com/user-attachments/assets/71934a45-0678-4ff9-a48f-522182c53ddd)
+
 
 💡 Observações
 Há espaço para melhorias, como a substituição dos print por um sistema de logging mais robusto e uma melhor gestão das tarefas I/O-bound. Entretanto, o esqueleto do código já está funcional e foi testado em produção, com um tempo de desenvolvimento de aproximadamente 2 horas.
